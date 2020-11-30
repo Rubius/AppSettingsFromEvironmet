@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Example\Example.csproj", "{DAD5886C-D229-4AA7-856F-A6B26B317BC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Environment2Settings", "Src\Environment2Settings.csproj", "{433FC47B-27EB-4F36-AE19-811DD5F4D39F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{B1F98F7D-0E24-40D6-89ED-963A5240C9AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD5886C-D229-4AA7-856F-A6B26B317BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD5886C-D229-4AA7-856F-A6B26B317BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD5886C-D229-4AA7-856F-A6B26B317BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD5886C-D229-4AA7-856F-A6B26B317BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433FC47B-27EB-4F36-AE19-811DD5F4D39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433FC47B-27EB-4F36-AE19-811DD5F4D39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433FC47B-27EB-4F36-AE19-811DD5F4D39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433FC47B-27EB-4F36-AE19-811DD5F4D39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1F98F7D-0E24-40D6-89ED-963A5240C9AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F98F7D-0E24-40D6-89ED-963A5240C9AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F98F7D-0E24-40D6-89ED-963A5240C9AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F98F7D-0E24-40D6-89ED-963A5240C9AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37D45BDD-97E0-4EAB-9C03-26BF38624816}
+	EndGlobalSection
+EndGlobal

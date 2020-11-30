@@ -20,7 +20,7 @@ static void Main(string[] args)
     var appSettings = new AppSettings();
     var environmentName = "Production";
 
-    // Заполняем значениями из "appsettings.json"
+    // Заполняем значениями из "appsettings.Production.json"
     var configuration = new ConfigurationBuilder().AddJsonFile($"appsettings.{environmentName}.json").Build();
     configuration.Bind(appSettings);
 

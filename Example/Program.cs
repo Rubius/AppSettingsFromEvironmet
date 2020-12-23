@@ -16,7 +16,7 @@ namespace Example
 
             // Перезагружаем настройки из переменных окружения
             SetEnvironmentVariables();
-            Environment2Settings.SetProperies(appSettings.UserConnection, "ServiceName");
+            EnvironmentVariableReader.SetProperies(appSettings.UserConnection, "ServiceName");
             Print(appSettings);
         }
 

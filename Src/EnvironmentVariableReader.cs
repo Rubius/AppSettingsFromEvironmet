@@ -4,7 +4,10 @@ using System.Reflection;
 
 namespace Common.Utils
 {
-    public static class Environment2Settings
+    /// <summary>
+    /// Читает переменные окружения.
+    /// </summary>
+    public static class EnvironmentVariableReader
     {
         private static readonly string _separator = "_";
 

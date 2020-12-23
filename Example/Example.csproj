@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Src\Environment2Settings.csproj" />
+    <ProjectReference Include="..\Src\EnvironmentVariableReader.csproj" />
   </ItemGroup>
 
   <ItemGroup>

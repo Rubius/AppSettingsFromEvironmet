@@ -28,7 +28,7 @@ static void Main(string[] args)
 
     // Изменяем некоторые настройки через переменные окружения.
     // Пример переменной окружения: "Production_ServiceName_Auth_Password" = "secret-password"
-    Environment2Settings.SetProperies(appSettings, $"{environmentName}", "ServiceName");
+    EnvironmentVariableReader.SetProperies(appSettings, $"{environmentName}", "ServiceName");
     
     Console.WriteLine(appSettings.Auth.Password);
 }
@@ -36,12 +36,12 @@ static void Main(string[] args)
 
 Функция:
 ```csharp
-    Environment2Settings.SetProperies<T>(T obj, params string[] envPrefixes) 
+    EnvironmentVariableReader.SetProperies<T>(T obj, params string[] envPrefixes) 
 ```
 заполняет публичные строковые свойства (на любом уровне вложенности) объекта obj из переменных окружения.
 Если вложенные свойства не инициализированы, то для них будет вызван дефолтный конструктор.
 Префиксы из envPrefixes соединяются в одну строку через символ разделителя: **`_`**.
 
 Подробнее смотри:
-  [Example](https://github.com/Rubius/Environment2Settings/tree/main/Example),
-  [Tests](https://github.com/Rubius/Environment2Settings/tree/main/Tests).
+  [Example](https://github.com/Rubius/EnvironmentVariableReader/tree/main/Example),
+  [Tests](https://github.com/Rubius/EnvironmentVariableReader/tree/main/Tests).
